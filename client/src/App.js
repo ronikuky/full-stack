@@ -1,5 +1,6 @@
 import './App.css';
-import Card from './cards/components/card/Card';
+import Cards from './cards/components/Cards';
+// import Card from './cards/components/card/Card';
 
 
 
@@ -7,7 +8,8 @@ function App() {
   return (
     <div className="App">
       {/* <PageHeader /> */}
-      <Card></Card>
+      {/* <Card/> */}
+      <Cards/>
     </div>
   );
 }
